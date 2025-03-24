@@ -3,11 +3,9 @@
 _start:
     # x = s1, y = s2, z = s3
     li s1, 1
-    sll s1, s1, 20
+    slli s2, s1, 20
 
-    li s2, 1
-    sll s2, s2, 12
+    li s3, 1
+    slli s4, s3, 12
 
-    add s3, s1, s2
-    
-    #NAO FUNCIONA, MUDAR DPS
+    add s5, s4, s2    
